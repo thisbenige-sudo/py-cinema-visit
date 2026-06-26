@@ -6,10 +6,10 @@ from app.cinema.bar import CinemaBar
 
 
 def cinema_visit(
+    movie: str,
     customers: list,
     hall_number: int,
     cleaner: str,
-    movie: str,
 ) -> None:
     # create Customer instances
     customer_objs: list[Customer] = [
